@@ -1,2 +1,9 @@
 languageCode = "en-us"
 title = "My New Netlify Victor Hugo Site"
+backend:
+  name: github
+  repo: <one-click-hugo-cms>
+  accept_roles:
+    - admin
+    - editor
+  branch: main 
